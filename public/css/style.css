@@ -19,7 +19,7 @@
 }
 .navbar-brand {
     float: left;
-    padding: 15px 15px;
+    padding: 10px;
     font-size: 18px;
     height: 100%;
     width:100%;
@@ -41,15 +41,15 @@
 }
 .side-nav>li>a:hover {
     width: 240px;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #111;
-      background: url(../images/h_bg.jpg) no-repeat center;
+    background: url(../images/h_bg.jpg) no-repeat center;
 }
 .side-nav>li>a:active {
     width: 240px;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #111;
-    background-color: #222;  
+    background: url(../images/h_bg.jpg) no-repeat center;  
+}
+.side-nav>li>a:focus {
+    width: 240px;
+    background: url(../images/h_bg.jpg) no-repeat center;  
 }
 h3{
     font-family: 'roboto';
